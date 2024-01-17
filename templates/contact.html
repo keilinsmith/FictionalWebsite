@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/products">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-3">
+  <h3> Join the Crud Community</h3>
+  <form action="/confirmation">
+    <div class="mb-3 mt-3">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" placeholder="Enter name" name="username">
+    </div>
+    <div class="mb-3 mt-3">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" placeholder="Enter email" name="email">
+    </div>
+    <div class="mb-3 mt-3">
+    <label for="phone">Phone:</label>
+    <input type="phone" class="form-control" placeholder="Enter phone number" name="phone">
+    </div>
+    <button type="submit" class="btn btn-dark">submit</button>
+  </form>
+</div>
+</body>
+</html>
